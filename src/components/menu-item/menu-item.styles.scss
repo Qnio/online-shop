@@ -1,8 +1,8 @@
 .menu-item {
   min-width: 30%;
   height: 240px;
-  flex: 1 1 auto;
   display: flex;
+  flex: 1 1 auto;
   align-items: center;
   justify-content: center;
   border: 1px solid black;
@@ -64,5 +64,11 @@
       font-weight: lighter;
       font-size: 16px;
     }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menu-item {
+    min-width: 20rem;
   }
 }

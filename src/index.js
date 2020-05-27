@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import { BrowserRouter } from 'react-router-dom';
+
+//to have acccess to Redux
+//we need to wrap all our components to have access to store component in Redux
 import { Provider } from 'react-redux';
 
 import './index.css';
